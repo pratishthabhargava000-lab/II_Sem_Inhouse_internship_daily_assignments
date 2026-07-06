@@ -1,0 +1,70 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    overflow:hidden;
+    font-family:Arial, sans-serif;
+    background:linear-gradient(135deg,#c2ffd8,#fef9d7);
+}
+
+h1{
+    text-align:center;
+    margin-top:20px;
+    color:#333;
+}
+
+#info{
+    display:flex;
+    justify-content:space-around;
+    font-size:25px;
+    font-weight:bold;
+    margin-top:20px;
+}
+
+#winner{
+    text-align:center;
+    margin-top:20px;
+    font-size:35px;
+    color:darkred;
+}
+
+.fruit{
+    width:120px;
+    position:absolute;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.blink{
+    animation:blink .4s 4;
+}
+
+@keyframes blink{
+
+0%{opacity:1;}
+50%{opacity:0;}
+100%{opacity:1;}
+
+}
+
+button{
+
+display:block;
+margin:20px auto;
+padding:12px 30px;
+font-size:20px;
+background:green;
+color:white;
+border:none;
+border-radius:10px;
+cursor:pointer;
+display:none;
+
+}
+
+button:hover{
+background:darkgreen;
+}
