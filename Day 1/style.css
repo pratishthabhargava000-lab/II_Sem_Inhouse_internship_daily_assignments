@@ -1,0 +1,30 @@
+p{
+    font-size: 14pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+h1{
+    color: violet; 
+}
+
+.rounded{
+    border-radius: 10px;
+}
+
+#phone{
+    font-size: 16pt;
+    border-radius: 40px;
+}
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20pt;
+}
+.background{
+    background-color: gray;
+}
+body{
+    background-color: burlywood;
+}
+#frontheading{
+    
+}
