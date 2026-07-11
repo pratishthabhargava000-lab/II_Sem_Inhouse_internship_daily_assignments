@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My website</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel=stylesheet>
+
+</head>
+<body>
+    <header class="bg-light border-bottom">
+        <div class="container d-flex 
+        justify-content-between align-items-centre py-3">
+
+        <!-- Logo -->
+        <img src="logo.jpg" alt="logo" width="80">
+
+
+        <!-- navigation bar -->
+
+        <nav>
+            <ul class="nav">
+            <li class="nav-item">
+                <a href="index.php" class="nav-link text-dark">Home</a>
+            </li>
+            <li class="nav-item">
+                <a href="about.php" class="nav-link text-dark">About Us</a>
+            </li>
+            <li class="nav-item">
+                <a href="contact.php" class="nav-link text-dark">Contact Us</a>
+            </li>
+            </ul>
+        </nav>
+
+        <!-- Login Button -->
+        <a href="logout.php" class="btn btn-primary rounded-pill d-flex justify-content-centre align-items-centre fw-bold"
+        style="width:90px; height:50px;">
+            Logout
+        </a>
+</div>
+</div>
+    </header>
+</body>
+</html>
